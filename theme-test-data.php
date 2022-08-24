@@ -66,7 +66,7 @@ class TTDSettings {
 		?>
 		<div class="wrap">
 			<h1>Theme Unit Test</h1>
-			<form method="post" action="options.php">
+			<form method="post" action="options.php" id="ttd-settings-form">
 			<?php
 				settings_fields( 'ttd-options' );
 				do_settings_sections( 'ttd-settings' );
@@ -78,6 +78,7 @@ class TTDSettings {
 			</form>
 		</div>
 		<?php
+		wp_enqueue_script( 'ttd-script', $this->get_plugin_url( __FILE__ ) . 'assets/js/index.js', array( 'jquery' ), '1.0.0', false );
 	}
 
 	/**
@@ -142,6 +143,17 @@ class TTDSettings {
 			esc_html( $ttd_import_disable ),
 			esc_html( $ttd_remove_disable )
 		);
+	}
+
+	/**
+	 * Get the publicly accessible URL for the module based on the filename.
+	 *
+	 * @param string $file File path for the module.
+	 * @return string $module_url Publicly accessible URL for the module.
+	 */
+	private function get_plugin_url( $file ) {
+		$module_url = plugins_url( '/', $file );
+		return trailingslashit( $module_url );
 	}
 }
 
