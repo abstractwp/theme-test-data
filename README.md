@@ -22,3 +22,11 @@ To **review a pull request**: view it and/or test it locally and add your commen
 If a pull request is ready to be merged and this has been noted already in a review but you do not have permission to merge, then be patient. :slightly_smiling_face: If the pull request that is ready to be merged has not been merged for some time, ping @danhthong on the issue.
 
 After merging, go to this codex page, https://codex.wordpress.org/Theme_Unit_Test, log in, and update the last updated date.
+
+## Changelog
+
+### 1.0.0 version
+
+* Initial Release.
+* Create settings page.
+* Create import and remove data functions.
