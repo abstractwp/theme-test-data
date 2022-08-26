@@ -24,6 +24,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+define( 'TTD_DIR', dirname( __FILE__ ) );
+define( 'TTD_IMPORT', 'import' );
+define( 'TTD_REMOVE', 'remove' );
+
+require_once 'include/api.php';
+
 /**
  * Theme test data setting pages.
  */
@@ -76,9 +82,11 @@ class TTDSettings {
 				submit_button();
 			?>
 			</form>
+			<div id="import-results"></div>
 		</div>
 		<?php
 		wp_enqueue_script( 'ttd-script', $this->get_plugin_url( __FILE__ ) . 'assets/js/index.js', array( 'jquery' ), '1.0.0', false );
+		wp_localize_script( 'ttd-script', 'WPURLS', array( 'siteurl' => get_option( 'siteurl' ) ) );
 	}
 
 	/**
@@ -133,12 +141,12 @@ class TTDSettings {
 	 * Get the settings option array and print one of its values.
 	 */
 	public function ttd_demo_callback() {
-		$ttd_import_disable = 'imported' === $this->options['ttd_import_demo'] ? 'disabled' : '';
-		$ttd_remove_disable = 'removed' === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
 		printf(
-			'<input type="radio" id="ttd_import_demo" name="ttd-options[ttd_import_demo]" value="imported" %s />
+			'<input type="radio" id="ttd_import_demo" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT ) . '" %s />
 			<label for="ttd_import_demo">Import demo</label>&nbsp;&nbsp;&nbsp;&nbsp;
-			<input type="radio" id="ttd_remove_demo" name="ttd-options[ttd_import_demo]" value="removed" %s />
+			<input type="radio" id="ttd_remove_demo" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_REMOVE ) . '" %s />
 			<label for="ttd_remove_demo">Remove demo</label>',
 			esc_html( $ttd_import_disable ),
 			esc_html( $ttd_remove_disable )
