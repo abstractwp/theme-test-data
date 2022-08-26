@@ -32,6 +32,17 @@ After merging, go to this codex page, <https://codex.wordpress.org/Theme_Unit_Te
 
 Coming soon
 
+## :tada: Spread the Word
+
+Please help support Theme Test Data by:
+
+- Adding a GitHub Star to the project!
+- Tweet about the project on your Twitter!
+  - Tag [@anabstractny](https://twitter.com/anabstractny) and/or `#theme-test-data`
+- Leave us a review [Theme Test Data](https://wordpress.org/plugins/theme-test-data/)!
+
+Thank you so much for your support!
+
 ## :scroll: Changelog
 
 ### 1.0.0 version
