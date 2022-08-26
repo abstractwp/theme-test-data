@@ -77,12 +77,15 @@ class TTDSettings {
 				settings_fields( 'ttd-options' );
 				do_settings_sections( 'ttd-settings' );
 			if ( isset( $this->options['ttd_import_demo'] ) ) {
-				printf( '<strong>%s at %s </strong><br />', esc_html( ucfirst( $this->options['ttd_import_demo'] ) ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
+				$ttd_title = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'Imported' : 'Removed';
+				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
 			}
 				submit_button();
 			?>
 			</form>
-			<div id="import-results"></div>
+			<div id="import-results" class="hidden">
+				<img src="<?php echo $this->get_plugin_url( __FILE__ ) . 'assets/images/loading.gif'; ?>" width="40"/>
+			</div>
 		</div>
 		<?php
 		wp_enqueue_script( 'ttd-script', $this->get_plugin_url( __FILE__ ) . 'assets/js/index.js', array( 'jquery' ), '1.0.0', false );

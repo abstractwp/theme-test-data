@@ -125,6 +125,10 @@ function ttd_remove_api() {
 	update_option( 'ttd-options', $options );
 	$ttd_remove_msg = trim( ob_get_clean() );
 
+	if ( '' === $ttd_remove_msg ) {
+		$ttd_remove_msg = esc_html__( 'Data removed', 'theme-unit-data' );
+	}
+
 	echo $ttd_remove_msg; // phpcs:ignore.
 	die;
 }
