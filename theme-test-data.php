@@ -50,6 +50,9 @@ class TTDSettings {
 
 		add_action( 'admin_notices', array( $this, 'ttd_admin_notice' ) );
 		register_activation_hook( __FILE__, array( $this, 'ttd_activate' ) );
+
+		// Filters.
+		add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 2 );
 	}
 
 	/**
@@ -191,6 +194,30 @@ class TTDSettings {
 	private function get_plugin_url( $file ) {
 		$module_url = plugins_url( '/', $file );
 		return trailingslashit( $module_url );
+	}
+
+	/**
+	 * Plugin row meta links
+	 *
+	 * @param array|array   $input already defined meta links.
+	 * @param string|string $file plugin file path and name being processed.
+	 * @return array $input
+	 */
+	public function plugin_row_meta( $input, $file ) {
+
+		if ( 'theme-test-data/theme-test-data.php' !== $file ) {
+			return $input;
+		}
+
+		$url = site_url( '/wp-admin/tools.php?page=ttd-settings' );
+
+		$links = array(
+			'<a href="' . esc_url( $url ) . '">' . esc_html__( 'Import Data', 'theme-test-data' ) . '</a>',
+		);
+
+		$input = array_merge( $input, $links );
+
+		return $input;
 	}
 }
 
