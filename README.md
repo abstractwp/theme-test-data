@@ -10,11 +10,11 @@ For instructions on how to use the Theme Test Data please see
 To download the Accessibility teams test file, please go to:
 <https://github.com/wpaccessibility/a11y-theme-unit-test>
 
-## Try Theme Unit Test
+## :movie_camera: Try Theme Unit Test
 
 See Theme Unit Test content at [WP Test Demo](https://demotest.abstractwp.com/)
 
-### Workflow
+### :construction_worker: Workflow
 
 Note that issues and pull requests for the theme preview file will not be reflected on WordPress.org. This file is for testing only.
 
@@ -28,7 +28,11 @@ If a pull request is ready to be merged and this has been noted already in a rev
 
 After merging, go to this codex page, <https://codex.wordpress.org/Theme_Unit_Test>, log in, and update the last updated date.
 
-## Changelog
+## :dart: Roadmap
+
+Coming soon
+
+## :scroll: Changelog
 
 ### 1.0.0 version
 
