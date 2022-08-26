@@ -47,6 +47,32 @@ class TTDSettings {
 	public function __construct() {
 		add_action( 'admin_menu', array( $this, 'add_plugin_page' ) );
 		add_action( 'admin_init', array( $this, 'page_init' ) );
+
+		add_action( 'admin_notices', array( $this, 'ttd_admin_notice' ) );
+		register_activation_hook( __FILE__, array( $this, 'ttd_activate' ) );
+	}
+
+	/**
+	 * Create transient to show notification at activate.
+	 */
+	public function ttd_activate() {
+		set_transient( 'ttd_notification', true, 5 );
+	}
+
+	/**
+	 * Show notification on activated.
+	 */
+	public function ttd_admin_notice() {
+		/* Check transient, if available display notice */
+		if ( get_transient( 'ttd_notification' ) ) {
+			?>
+			<div class="updated notice is-dismissible">
+				<p><?php echo esc_html__( 'To import demo data you can go to', 'theme-unit-data' ); ?> <a href="<?php echo esc_url( site_url( '/wp-admin/tools.php?page=ttd-settings' ) ); ?>"><?php echo esc_html__( 'Theme Unit Test', 'theme-unit-data' ); ?></a></p>
+			</div>
+			<?php
+			/* Delete transient, only display this notice once. */
+			delete_transient( 'ttd_notification' );
+		}
 	}
 
 	/**
@@ -84,7 +110,7 @@ class TTDSettings {
 			?>
 			</form>
 			<div id="import-results" class="hidden">
-				<img src="<?php echo $this->get_plugin_url( __FILE__ ) . 'assets/images/loading.gif'; ?>" width="40"/>
+				<img src="<?php echo esc_url( $this->get_plugin_url( __FILE__ ) . 'assets/images/loading.gif' ); ?>" width="40"/>
 			</div>
 		</div>
 		<?php
