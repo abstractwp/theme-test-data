@@ -72,7 +72,6 @@ function ttd_import_api() {
 	$options                    = get_option( 'ttd-options' );
 	$options['imported_posts']  = $wp_import->processed_posts;
 	$options['imported_terms']  = $wp_import->processed_terms;
-	$options['imported_images'] = $wp_import->featured_images;
 	$options['ttd_import_demo'] = TTD_IMPORT;
 	$options['date']            = time();
 
@@ -80,4 +79,52 @@ function ttd_import_api() {
 
 	echo $wp_import_msg; // phpcs:ignore
 	die();
+}
+
+add_action(
+	'rest_api_init',
+	function () {
+		register_rest_route(
+			'ttd/v1',
+			'/remove',
+			array(
+				'methods'  => 'GET',
+				'callback' => 'ttd_remove_api',
+			)
+		);
+	}
+);
+
+/**
+ * Function to remove data.
+ */
+function ttd_remove_api() {
+	ob_start();
+	$options = get_option( 'ttd-options' );
+
+	// Remove posts.
+	foreach ( $options['imported_posts'] as $key => $value ) {
+		if ( 'attachment' === get_post_type( $value ) ) {
+			wp_delete_attachment( $value, true );
+		} else {
+			wp_delete_post( $value, true );
+		}
+		unset( $options['imported_posts'][ $key ] );
+	}
+
+	// Remove terms.
+	foreach ( $options['imported_terms'] as $key => $value ) {
+		$taxonomy = get_term( $value )->taxonomy;
+		wp_delete_term( $value, $taxonomy );
+		unset( $options['imported_terms'][ $key ] );
+	}
+
+	$options['ttd_import_demo'] = TTD_REMOVE;
+	$options['date']            = time();
+
+	update_option( 'ttd-options', $options );
+	$ttd_remove_msg = trim( ob_get_clean() );
+
+	echo $ttd_remove_msg; // phpcs:ignore.
+	die;
 }

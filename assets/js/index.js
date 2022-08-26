@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
 				url: WPURLS.siteurl + '/wp-json/ttd/v1/' + action,
 				dataType: 'html',
 			}).done(function(html) {
-				$('#import-results').append( html );
+				$('#import-results').html( html );
 				setTimeout(() => {
 					location.reload();
 				}, 3000);
