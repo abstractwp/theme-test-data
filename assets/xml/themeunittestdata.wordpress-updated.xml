@@ -11821,11 +11821,17 @@ https://twitter.com/nacin/status/319508408669708289
 		<dc:creator><![CDATA[]]></dc:creator>
 		<guid isPermaLink="false">http://wptest.io/demo/?p=1016</guid>
 		<description></description>
-		<content:encoded><![CDATA[This post should display a <a title="Featured Images" href="https://en.support.wordpress.com/featured-images/#setting-a-featured-image" target="_blank" rel="noopener">featured image</a>, if the theme <a title="Post Thumbnails" href="https://codex.wordpress.org/Post_Thumbnails" target="_blank" rel="noopener">supports it</a>.
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>This post should display a <a title="Featured Images" href="https://en.support.wordpress.com/featured-images/#setting-a-featured-image" target="_blank" rel="noopener">featured image</a>, if the theme <a title="Post Thumbnails" href="https://codex.wordpress.org/Post_Thumbnails" target="_blank" rel="noopener">supports it</a>.</p>
+<!-- /wp:paragraph -->
 
-Non-square images can provide some unique styling issues.
+<!-- wp:paragraph -->
+<p>Non-square images can provide some unique styling issues.</p>
+<!-- /wp:paragraph -->
 
-This post tests a vertical featured image.]]></content:encoded>
+<!-- wp:paragraph -->
+<p>This post tests a vertical featured image.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1016</wp:post_id>
 		<wp:post_date><![CDATA[2012-03-15 15:36:32]]></wp:post_date>
