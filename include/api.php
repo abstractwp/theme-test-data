@@ -8,6 +8,7 @@
 add_action(
 	'rest_api_init',
 	function () {
+		$GLOBALS['ttd_user_id'] = get_current_user_id();
 		register_rest_route(
 			'ttd/v1',
 			'/import',
@@ -68,6 +69,15 @@ function ttd_import_api() {
 	$wp_import->fetch_attachments = true;
 	$wp_import->import( TTD_DIR . '/assets/xml/themeunittestdata.wordpress-updated.xml' );
 	$wp_import_msg = trim( ob_get_clean() );
+
+	// Update author.
+	foreach ( $wp_import->processed_posts as $post_id ) {
+		$arg = array(
+			'ID'          => $post_id,
+			'post_author' => $GLOBALS['ttd_user_id'],
+		);
+		wp_update_post( $arg );
+	}
 
 	$options                    = get_option( 'ttd-options' );
 	$options['imported_posts']  = $wp_import->processed_posts;
