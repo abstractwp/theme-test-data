@@ -66,7 +66,7 @@ function ttd_import_api() {
 	$wp_import = new WP_Import();
 
 	$wp_import->fetch_attachments = true;
-	$wp_import->import( TTD_DIR . '/assets/xml/themeunittestdata.WordPress.xml' );
+	$wp_import->import( TTD_DIR . '/assets/xml/themeunittestdata.wordpress-updated.xml' );
 	$wp_import_msg = trim( ob_get_clean() );
 
 	$options                    = get_option( 'ttd-options' );
