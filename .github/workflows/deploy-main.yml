@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - master
-      - dev
 
 name: Deploy to WPE
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -23,13 +22,7 @@ jobs:
           PHP_LINT: FALSE
           REMOTE_PATH: "wp-content/plugins/theme-test-data/"
           CACHE_CLEAR: TRUE
-
-        # Branches & Environments
-          PRD_BRANCH: master
-          PRD_ENV: themeunittest
-
-          DEV_BRANCH: dev
-          DEV_ENV: themeunittedev
+          WPE_ENV: themeunittest
 
       - name: Notify Slack
         uses: rtCamp/action-slack-notify@v2
