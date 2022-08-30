@@ -14,13 +14,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - uses: actions/checkout@v2
       - name: Deploy WordPress to WP Engine
         uses: wpengine/github-action-wpe-site-deploy@v3.1.1
         with:
         # Keys, lint & url options
           WPE_SSHG_KEY_PRIVATE: ${{secrets.WPENGINE_SSH_KEY_PRIVATE}}
           PHP_LINT: FALSE
-          SRC_PATH: "*"
           REMOTE_PATH: "wp-content/plugins/theme-test-data/"
           CACHE_CLEAR: TRUE
 
