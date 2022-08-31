@@ -7,7 +7,7 @@
  * Author URI: https://www.abstractwp.com/
  * Tags: theme test data, unit test, test
  * Version: 1.0.0
- * Text Domain: 'theme-unit-data'
+ * Text Domain: 'theme-test-data'
  * Domain Path: languages
  * Tested up to: 6.0.1
  *
@@ -109,7 +109,7 @@ class TTDSettings {
 				$ttd_title = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'Imported' : 'Removed';
 				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
 			}
-				submit_button();
+				submit_button( esc_html__( 'Submit','theme-test-data' ) );
 			?>
 			</form>
 			<div id="import-results" class="hidden">
