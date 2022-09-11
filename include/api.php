@@ -76,7 +76,6 @@ function ttd_import_api() {
 			'ID'          => $post_id,
 			'post_author' => $GLOBALS['ttd_user_id'],
 		);
-		wp_update_post( $arg );
 
 		// Update navigation-link urls.
 		if( 'wp_navigation' === get_post_type( $post_id ) ) {
@@ -84,13 +83,10 @@ function ttd_import_api() {
 
 			$post_content = str_replace( $wp_import->base_url, site_url(), $wp_navigation->post_content );
 
-			$arg = array(
-				'ID'           => $post_id,
-				'post_content' => $post_content,
-			);
-
-			wp_update_post( $arg );
+			$arg['post_content'] = $post_content;
 		}
+
+		wp_update_post( $arg );
 	}
 
 	$options                    = get_option( 'ttd-options' );
