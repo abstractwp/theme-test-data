@@ -8087,8 +8087,8 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home]]></title>
@@ -8137,7 +8137,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8187,7 +8187,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8221,7 +8221,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8255,7 +8255,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:comment>
 			<wp:comment_id>2</wp:comment_id>
@@ -8403,7 +8403,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8707,7 +8707,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_meta_description]]></wp:meta_key>
@@ -8722,7 +8722,7 @@
 		<guid isPermaLink="false">http://wptest.io/demo/?page_id=1086</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p><a title="WP Test - The Best Tests For WordPress" rel="noopener" href="http://wptest.io" target="_blank">WPTests</a> is a fantastically exhaustive set of test data to measure the integrity of your plugins and themes.</p>
+<p><a title="WP Test - The Best Tests For WordPress" rel="noopener" href="https://wptests.abstractwp.com/" target="_blank">WPTests</a> is a fantastically exhaustive set of test data to measure the integrity of your plugins and themes.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -8753,7 +8753,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_meta_description]]></wp:meta_key>
@@ -8791,7 +8791,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8821,7 +8821,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8851,7 +8851,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8915,7 +8915,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9347,6 +9347,10 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="comments"><![CDATA[Comments]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[comment-test]]></wp:meta_value>
@@ -9910,6 +9914,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="category" nicename="pingbacks"><![CDATA[Pingbacks]]></category>
 		<category domain="category" nicename="trackbacks"><![CDATA[Trackbacks]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[many-trackbacks]]></wp:meta_value>
 		</wp:postmeta>
@@ -10017,6 +10025,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="category" nicename="pingbacks"><![CDATA[Pingbacks]]></category>
 		<category domain="category" nicename="trackbacks"><![CDATA[Trackbacks]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[no-comments]]></wp:meta_value>
 		</wp:postmeta>
@@ -10063,6 +10075,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<category domain="post_tag" nicename="unseen"><![CDATA[Unseen]]></category>
 		<category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 						</item>
 					<item>
 		<title><![CDATA[Many Categories]]></title>
@@ -10089,6 +10105,10 @@ Also an author comment.]]></wp:comment_content>
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="alignment"><![CDATA[Alignment]]></category>
 		<category domain="category" nicename="post-format-aside"><![CDATA[Aside]]></category>
 		<category domain="category" nicename="post-format-audio"><![CDATA[Audio]]></category>
@@ -10160,6 +10180,10 @@ Also an author comment.]]></wp:comment_content>
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="unpublished"><![CDATA[Unpublished]]></category>
 						</item>
@@ -10287,6 +10311,10 @@ Also an author comment.]]></wp:comment_content>
 										<category domain="post_format" nicename="post-format-gallery"><![CDATA[Gallery]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[611]]></wp:meta_value>
 		</wp:postmeta>
@@ -10327,6 +10355,10 @@ Also an author comment.]]></wp:comment_content>
 										<category domain="category" nicename="post-format-aside"><![CDATA[Aside]]></category>
 		<category domain="post_format" nicename="post-format-aside"><![CDATA[Aside]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-aside]]></wp:meta_value>
@@ -10377,6 +10409,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="post_format" nicename="post-format-chat"><![CDATA[Chat]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-chat]]></wp:meta_value>
 		</wp:postmeta>
@@ -10409,6 +10445,10 @@ Also an author comment.]]></wp:comment_content>
 										<category domain="category" nicename="post-format-link"><![CDATA[Link]]></category>
 		<category domain="post_format" nicename="post-format-link"><![CDATA[Link]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-link]]></wp:meta_value>
@@ -10447,6 +10487,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-image]]></wp:meta_value>
 		</wp:postmeta>
@@ -10484,6 +10528,10 @@ Also an author comment.]]></wp:comment_content>
 		<category domain="category" nicename="post-format-quote"><![CDATA[Quote]]></category>
 		<category domain="post_format" nicename="post-format-quote"><![CDATA[Quote]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-quote]]></wp:meta_value>
 		</wp:postmeta>
@@ -10516,6 +10564,10 @@ Also an author comment.]]></wp:comment_content>
 										<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 		<category domain="category" nicename="post-format-status"><![CDATA[Status]]></category>
 		<category domain="post_format" nicename="post-format-status"><![CDATA[Status]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-status]]></wp:meta_value>
@@ -10559,6 +10611,10 @@ http://www.youtube.com/watch?v=nwe-H6l4beM
 										<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 		<category domain="category" nicename="post-format-video"><![CDATA[Video]]></category>
 		<category domain="post_format" nicename="post-format-video"><![CDATA[Video]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-video]]></wp:meta_value>
@@ -10625,6 +10681,10 @@ http://www.youtube.com/watch?v=nwe-H6l4beM
 		<category domain="post_format" nicename="post-format-audio"><![CDATA[Audio]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-audio]]></wp:meta_value>
 		</wp:postmeta>
@@ -10664,6 +10724,10 @@ audio/mpeg
 										<category domain="post_format" nicename="post-format-image"><![CDATA[Image]]></category>
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
 		<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post-format-test-image-attached]]></wp:meta_value>
@@ -10722,6 +10786,10 @@ audio/mpeg
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="post-formats"><![CDATA[Post Formats]]></category>
 		<category domain="category" nicename="standard"><![CDATA[Standard]]></category>
 						</item>
@@ -10766,6 +10834,10 @@ audio/mpeg
 		<category domain="post_format" nicename="post-format-video"><![CDATA[Video]]></category>
 		<category domain="category" nicename="videopress"><![CDATA[VideoPress]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -10805,7 +10877,7 @@ audio/mpeg
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10835,7 +10907,7 @@ audio/mpeg
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -10867,6 +10939,10 @@ audio/mpeg
 		<category domain="category" nicename="password"><![CDATA[Password]]></category>
 		<category domain="category" nicename="pingbacks"><![CDATA[Pingbacks]]></category>
 		<category domain="category" nicename="trackbacks"><![CDATA[Trackbacks]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[test-with-secret-password]]></wp:meta_value>
@@ -10917,6 +10993,10 @@ audio/mpeg
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="titles"><![CDATA[Titles]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[14]]></wp:meta_value>
 		</wp:postmeta>
@@ -10945,6 +11025,10 @@ audio/mpeg
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[this-post-has-no-body]]></wp:meta_value>
@@ -11007,6 +11091,10 @@ audio/mpeg
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[layout-test]]></wp:meta_value>
 		</wp:postmeta>
@@ -11040,6 +11128,10 @@ audio/mpeg
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="titles"><![CDATA[Titles]]></category>
 						</item>
 					<item>
@@ -11071,6 +11163,10 @@ audio/mpeg
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="titles"><![CDATA[Titles]]></category>
 						</item>
 					<item>
@@ -11118,6 +11214,10 @@ word-wrap: break-word;</pre>
 										<category domain="category" nicename="comments"><![CDATA[Comments]]></category>
 		<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="titles"><![CDATA[Titles]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[non-breaking-tex]]></wp:meta_value>
@@ -11200,6 +11300,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="alignment"><![CDATA[Alignment]]></category>
 		<category domain="category" nicename="content"><![CDATA[Content]]></category>
 						</item>
@@ -11337,6 +11441,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
 		<category domain="category" nicename="post-format-link"><![CDATA[Link]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
@@ -11653,6 +11761,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<category domain="category" nicename="formatting"><![CDATA[Formatting]]></category>
 		<category domain="category" nicename="markup"><![CDATA[Markup]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -11697,6 +11809,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="unpublished"><![CDATA[Unpublished]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -11734,6 +11850,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="excerpt"><![CDATA[Excerpt]]></category>
 						</item>
@@ -11774,6 +11894,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="more-tag"><![CDATA[More Tag]]></category>
 						</item>
@@ -11878,6 +12002,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+		</wp:postmeta>
 										<category domain="category" nicename="content"><![CDATA[Content]]></category>
 		<category domain="category" nicename="lists"><![CDATA[Lists]]></category>
 						</item>
@@ -11918,6 +12046,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<category domain="category" nicename="corner-case"><![CDATA[Corner Case]]></category>
 		<category domain="category" nicename="featured-images"><![CDATA[Featured Images]]></category>
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[featured-image]]></wp:meta_value>
@@ -11976,6 +12108,10 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 		<category domain="category" nicename="corner-case"><![CDATA[Corner Case]]></category>
 		<category domain="category" nicename="featured-images"><![CDATA[Featured Images]]></category>
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1024]]></wp:meta_value>
@@ -12036,6 +12172,10 @@ https://twitter.com/carlsmith/status/258214236126322689
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_meta_description]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -12123,6 +12263,10 @@ https://twitter.com/carlsmith/status/258214236126322689
 		<category domain="category" nicename="images"><![CDATA[Images]]></category>
 		<category domain="category" nicename="jetpack"><![CDATA[Jetpack]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -12169,6 +12313,10 @@ https://twitter.com/carlsmith/status/258214236126322689
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="sticky"><![CDATA[Sticky]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-custom-template-page-with-sidebar]]></wp:meta_value>
+						</wp:postmeta>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[standard_seo_post_level_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
@@ -12421,7 +12569,7 @@ https://twitter.com/carlsmith/status/258214236126322689
 <h4>Test these things</h4>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":1545,"layout":{"type":"flex","orientation":"vertical"}} /-->
+<!-- wp:navigation {"ref":1628,"layout":{"type":"flex","orientation":"vertical"}} /-->
 
 <!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search...","buttonText":"Search","buttonUseIcon":true} /-->
 
