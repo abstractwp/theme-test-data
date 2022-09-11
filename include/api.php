@@ -77,13 +77,23 @@ function ttd_import_api() {
 			'post_author' => $GLOBALS['ttd_user_id'],
 		);
 
-		// Update navigation-link urls.
-		if( 'wp_navigation' === get_post_type( $post_id ) ) {
-			$wp_navigation = get_post( $post_id );
+		$post = get_post( $post_id );
 
-			$post_content = str_replace( $wp_import->base_url, site_url(), $wp_navigation->post_content );
+		// Update navigation-link urls.
+		if( 'wp_navigation' === $post->post_type ) {
+
+			$post_content = str_replace( $wp_import->base_url, site_url(), $post->post_content );
 
 			$arg['post_content'] = $post_content;
+		}
+
+		// Update GUIDs.
+		if( isset($post->guid ) ) {
+
+			$guid = str_replace( $wp_import->base_url, site_url(), $post->guid );
+			$guid = str_replace( 'http://wpthemetestdata.wordpress.com', site_url(), $post->guid );
+
+			$arg['guid'] = $guid;
 		}
 
 		wp_update_post( $arg );
