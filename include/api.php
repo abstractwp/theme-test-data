@@ -80,7 +80,7 @@ function ttd_import_api() {
 		$post = get_post( $post_id );
 
 		// Update navigation-link urls.
-		if( 'wp_navigation' === $post->post_type ) {
+		if ( 'wp_navigation' === $post->post_type ) {
 
 			$post_content = str_replace( $wp_import->base_url, site_url(), $post->post_content );
 
@@ -88,7 +88,7 @@ function ttd_import_api() {
 		}
 
 		// Update GUIDs.
-		if( isset($post->guid ) ) {
+		if ( isset( $post->guid ) ) {
 
 			$guid = str_replace( $wp_import->base_url, site_url(), $post->guid );
 			$guid = str_replace( 'http://wpthemetestdata.wordpress.com', site_url(), $post->guid );
