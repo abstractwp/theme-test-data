@@ -109,7 +109,7 @@ class TTDSettings {
 				$ttd_title = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'Imported' : 'Removed';
 				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
 			}
-				submit_button( esc_html__( 'Submit','theme-test-data' ) );
+				submit_button( esc_html__( 'Submit', 'theme-test-data' ) );
 			?>
 			</form>
 			<div id="import-results" class="hidden">
@@ -173,8 +173,13 @@ class TTDSettings {
 	 * Get the settings option array and print one of its values.
 	 */
 	public function ttd_demo_callback() {
-		$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
-		$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		$ttd_import_disable = '';
+		$ttd_remove_disable = '';
+		if ( isset( $this->options['ttd_import_demo'] ) ) {
+			$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
+			$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		}
+
 		printf(
 			'<input type="radio" id="ttd_import_demo" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT ) . '" %s />
 			<label for="ttd_import_demo">Import demo</label>&nbsp;&nbsp;&nbsp;&nbsp;
