@@ -11,7 +11,7 @@ add_action(
 		$GLOBALS['ttd_user_id'] = get_current_user_id();
 		register_rest_route(
 			'ttd/v1',
-			'/import',
+			'import/',
 			array(
 				'methods'  => 'GET',
 				'callback' => 'ttd_import_api',
@@ -116,7 +116,7 @@ add_action(
 	function () {
 		register_rest_route(
 			'ttd/v1',
-			'/remove',
+			'remove/',
 			array(
 				'methods'  => 'GET',
 				'callback' => 'ttd_remove_api',

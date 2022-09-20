@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 			).val();
 			$("#import-results").show();
 			$.ajax({
-					url: WPURLS.siteurl + "/wp-json/ttd/v1/" + action,
+					url: WPURLS.siteurl + "ttd/v1/" + action,
 					dataType: "html",
 				})
 				.done(function (html) {
