@@ -11,7 +11,7 @@ add_action(
 		$GLOBALS['ttd_user_id'] = get_current_user_id();
 		register_rest_route(
 			'ttd/v1',
-			'/import',
+			'import/',
 			array(
 				'methods'  => 'GET',
 				'callback' => 'ttd_import_api',
@@ -67,7 +67,7 @@ function ttd_import_api() {
 	$wp_import = new WP_Import();
 
 	$wp_import->fetch_attachments = true;
-	$wp_import->import( TTD_DIR . '/assets/xml/themeunittestdata.wordpress-updated.xml' );
+	$wp_import->import( TTD_DIR . '/assets/xml/wptest.xml' );
 	$wp_import_msg = trim( ob_get_clean() );
 
 	// Update author.
@@ -76,6 +76,26 @@ function ttd_import_api() {
 			'ID'          => $post_id,
 			'post_author' => $GLOBALS['ttd_user_id'],
 		);
+
+		$post = get_post( $post_id );
+
+		// Update navigation-link urls.
+		if ( 'wp_navigation' === $post->post_type ) {
+
+			$post_content = str_replace( $wp_import->base_url, site_url(), $post->post_content );
+
+			$arg['post_content'] = $post_content;
+		}
+
+		// Update GUIDs.
+		if ( isset( $post->guid ) ) {
+
+			$guid = str_replace( $wp_import->base_url, site_url(), $post->guid );
+			$guid = str_replace( 'http://wpthemetestdata.wordpress.com', site_url(), $post->guid );
+
+			$arg['guid'] = $guid;
+		}
+
 		wp_update_post( $arg );
 	}
 
@@ -96,7 +116,7 @@ add_action(
 	function () {
 		register_rest_route(
 			'ttd/v1',
-			'/remove',
+			'remove/',
 			array(
 				'methods'  => 'GET',
 				'callback' => 'ttd_remove_api',

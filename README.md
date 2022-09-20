@@ -10,6 +10,10 @@ For instructions on how to use the Theme Test Data please see
 To download the Accessibility teams test file, please go to:
 <https://github.com/wpaccessibility/a11y-theme-unit-test>
 
+## :question: Why is this a thing?
+
+Coming soon.
+
 ## :movie_camera: Try Theme Unit Test
 
 See Theme Unit Test content at [WP Test Demo](https://demotest.abstractwp.com/)
@@ -45,8 +49,12 @@ Thank you so much for your support!
 
 ## :scroll: Changelog
 
+### 1.0.1 version
+
+- Fixed: ajax fail on pain structure Permalink.
+
 ### 1.0.0 version
 
-* Initial Release.
-* Create settings page.
-* Create import and remove data functions.
+- Initial Release.
+- Create settings page.
+- Create import and remove data functions.

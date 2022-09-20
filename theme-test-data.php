@@ -6,10 +6,10 @@
  * Author: AbstractWP
  * Author URI: https://www.abstractwp.com/
  * Tags: theme test data, unit test, test
- * Version: 1.0.0
- * Text Domain: 'theme-unit-data'
+ * Version: 1.0.1
+ * Text Domain: 'theme-test-data'
  * Domain Path: languages
- * Tested up to: 6.0.1
+ * Tested up to: 6.0.2
  *
  * You should have received a copy of the GNU General Public License
  * along with Theme Unit Test. If not, see <http://www.gnu.org/licenses/>.
@@ -109,7 +109,7 @@ class TTDSettings {
 				$ttd_title = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'Imported' : 'Removed';
 				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
 			}
-				submit_button();
+				submit_button( esc_html__( 'Submit', 'theme-test-data' ) );
 			?>
 			</form>
 			<div id="import-results" class="hidden">
@@ -118,7 +118,7 @@ class TTDSettings {
 		</div>
 		<?php
 		wp_enqueue_script( 'ttd-script', $this->get_plugin_url( __FILE__ ) . 'assets/js/index.js', array( 'jquery' ), '1.0.0', false );
-		wp_localize_script( 'ttd-script', 'WPURLS', array( 'siteurl' => get_option( 'siteurl' ) ) );
+		wp_localize_script( 'ttd-script', 'WPURLS', array( 'siteurl' => get_rest_url() ) );
 	}
 
 	/**
@@ -173,8 +173,13 @@ class TTDSettings {
 	 * Get the settings option array and print one of its values.
 	 */
 	public function ttd_demo_callback() {
-		$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
-		$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		$ttd_import_disable = '';
+		$ttd_remove_disable = '';
+		if ( isset( $this->options['ttd_import_demo'] ) ) {
+			$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
+			$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		}
+
 		printf(
 			'<input type="radio" id="ttd_import_demo" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT ) . '" %s />
 			<label for="ttd_import_demo">Import demo</label>&nbsp;&nbsp;&nbsp;&nbsp;
