@@ -49,8 +49,12 @@ Thank you so much for your support!
 
 ## :scroll: Changelog
 
+### 1.0.1 version
+
+- Fixed: ajax fail on pain structure Permalink.
+
 ### 1.0.0 version
 
-* Initial Release.
-* Create settings page.
-* Create import and remove data functions.
+- Initial Release.
+- Create settings page.
+- Create import and remove data functions.
