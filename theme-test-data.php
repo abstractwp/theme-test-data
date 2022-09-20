@@ -118,7 +118,7 @@ class TTDSettings {
 		</div>
 		<?php
 		wp_enqueue_script( 'ttd-script', $this->get_plugin_url( __FILE__ ) . 'assets/js/index.js', array( 'jquery' ), '1.0.0', false );
-		wp_localize_script( 'ttd-script', 'WPURLS', array( 'siteurl' => get_option( 'siteurl' ) ) );
+		wp_localize_script( 'ttd-script', 'WPURLS', array( 'siteurl' => get_rest_url() ) );
 	}
 
 	/**
