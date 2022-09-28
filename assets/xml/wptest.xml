@@ -2037,7 +2037,7 @@
 			<link>http://wptest.io/demo/image-alignment/image-alignment-150x150/</link>
 			<pubDate>Fri, 15 Mar 2013 00:44:49 +0000</pubDate>
 			<dc:creator><![CDATA[admin]]></dc:creator>
-			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg</guid>
+			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg</guid>
 			<description></description>
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2055,14 +2055,14 @@
 			<wp:post_type><![CDATA[attachment]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg]]></wp:attachment_url>
+			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg]]></wp:attachment_url>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2013/03/image-alignment-150x150-2.jpg]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2013/03/image-alignment-150x150.jpg]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:150;s:6:"height";i:150;s:4:"file";s:37:"2013/03/image-alignment-150x150-2.jpg";s:8:"filesize";i:2844;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-150x150-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:2799;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:150;s:6:"height";i:150;s:4:"file";s:37:"2013/03/image-alignment-150x150.jpg";s:8:"filesize";i:2844;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-150x150-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:2799;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
@@ -2074,7 +2074,7 @@
 			<link>http://wptest.io/demo/image-alignment/image-alignment-300x200/</link>
 			<pubDate>Fri, 15 Mar 2013 00:44:49 +0000</pubDate>
 			<dc:creator><![CDATA[admin]]></dc:creator>
-			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg</guid>
+			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg</guid>
 			<description></description>
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2092,14 +2092,14 @@
 			<wp:post_type><![CDATA[attachment]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg]]></wp:attachment_url>
+			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg]]></wp:attachment_url>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2013/03/image-alignment-300x200-2.jpg]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2013/03/image-alignment-300x200.jpg]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:300;s:6:"height";i:200;s:4:"file";s:37:"2013/03/image-alignment-300x200-2.jpg";s:8:"filesize";i:6446;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-300x200-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3893;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:300;s:6:"height";i:200;s:4:"file";s:37:"2013/03/image-alignment-300x200.jpg";s:8:"filesize";i:6446;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-300x200-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3893;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
@@ -2111,7 +2111,7 @@
 			<link>http://wptest.io/demo/image-alignment/image-alignment-580x300/</link>
 			<pubDate>Fri, 15 Mar 2013 00:44:50 +0000</pubDate>
 			<dc:creator><![CDATA[admin]]></dc:creator>
-			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg</guid>
+			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg</guid>
 			<description></description>
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2129,14 +2129,14 @@
 			<wp:post_type><![CDATA[attachment]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg]]></wp:attachment_url>
+			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg]]></wp:attachment_url>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2013/03/image-alignment-580x300-2.jpg]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2013/03/image-alignment-580x300.jpg]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:580;s:6:"height";i:300;s:4:"file";s:37:"2013/03/image-alignment-580x300-2.jpg";s:8:"filesize";i:9082;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:37:"image-alignment-580x300-2-300x155.jpg";s:5:"width";i:300;s:6:"height";i:155;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3812;}s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-580x300-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:2378;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:580;s:6:"height";i:300;s:4:"file";s:37:"2013/03/image-alignment-580x300.jpg";s:8:"filesize";i:9082;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:37:"image-alignment-580x300-2-300x155.jpg";s:5:"width";i:300;s:6:"height";i:155;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3812;}s:9:"thumbnail";a:5:{s:4:"file";s:37:"image-alignment-580x300-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:2378;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
@@ -2148,7 +2148,7 @@
 			<link>http://wptest.io/demo/image-alignment/image-alignment-1200x4002/</link>
 			<pubDate>Fri, 15 Mar 2013 00:44:50 +0000</pubDate>
 			<dc:creator><![CDATA[admin]]></dc:creator>
-			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg</guid>
+			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg</guid>
 			<description></description>
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2166,14 +2166,14 @@
 			<wp:post_type><![CDATA[attachment]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg]]></wp:attachment_url>
+			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg]]></wp:attachment_url>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2013/03/image-alignment-1200x4002-2.jpg]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2013/03/image-alignment-1200x4002.jpg]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1200;s:6:"height";i:400;s:4:"file";s:39:"2013/03/image-alignment-1200x4002-2.jpg";s:8:"filesize";i:35514;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-300x100.jpg";s:5:"width";i:300;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5753;}s:5:"large";a:5:{s:4:"file";s:40:"image-alignment-1200x4002-2-1024x341.jpg";s:5:"width";i:1024;s:6:"height";i:341;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:27155;}s:9:"thumbnail";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:4429;}s:12:"medium_large";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-768x256.jpg";s:5:"width";i:768;s:6:"height";i:256;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:18793;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1200;s:6:"height";i:400;s:4:"file";s:39:"2013/03/image-alignment-1200x4002.jpg";s:8:"filesize";i:35514;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-300x100.jpg";s:5:"width";i:300;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5753;}s:5:"large";a:5:{s:4:"file";s:40:"image-alignment-1200x4002-2-1024x341.jpg";s:5:"width";i:1024;s:6:"height";i:341;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:27155;}s:9:"thumbnail";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:4429;}s:12:"medium_large";a:5:{s:4:"file";s:39:"image-alignment-1200x4002-2-768x256.jpg";s:5:"width";i:768;s:6:"height";i:256;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:18793;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
@@ -2407,7 +2407,7 @@
 			<link>http://wptest.io/demo/tiled-gallery/ironman-2/</link>
 			<pubDate>Fri, 15 Mar 2013 22:27:06 +0000</pubDate>
 			<dc:creator><![CDATA[admin]]></dc:creator>
-			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman-2.jpg</guid>
+			<guid isPermaLink="false">http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman.jpg</guid>
 			<description></description>
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2425,14 +2425,14 @@
 			<wp:post_type><![CDATA[attachment]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman-2.jpg]]></wp:attachment_url>
+			<wp:attachment_url><![CDATA[http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman.jpg]]></wp:attachment_url>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2013/03/ironman-2.jpg]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2013/03/ironman.jpg]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:800;s:6:"height";i:1180;s:4:"file";s:23:"2013/03/ironman-2.jpg";s:8:"filesize";i:302619;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:23:"ironman-2-1-203x300.jpg";s:5:"width";i:203;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:15044;}s:5:"large";a:5:{s:4:"file";s:24:"ironman-2-1-694x1024.jpg";s:5:"width";i:694;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:102342;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"ironman-2-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6042;}s:12:"medium_large";a:5:{s:4:"file";s:24:"ironman-2-1-768x1133.jpg";s:5:"width";i:768;s:6:"height";i:1133;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:119374;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:6:{s:5:"width";i:800;s:6:"height";i:1180;s:4:"file";s:23:"2013/03/ironman.jpg";s:8:"filesize";i:302619;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:23:"ironman-2-1-203x300.jpg";s:5:"width";i:203;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:15044;}s:5:"large";a:5:{s:4:"file";s:24:"ironman-2-1-694x1024.jpg";s:5:"width";i:694;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:102342;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"ironman-2-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6042;}s:12:"medium_large";a:5:{s:4:"file";s:24:"ironman-2-1-768x1133.jpg";s:5:"width";i:768;s:6:"height";i:1133;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:119374;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
@@ -8306,7 +8306,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":906} -->
-<figure class="wp-block-image aligncenter"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg" alt="Image Alignment 580x300" class="wp-image-906" title="Image Alignment 580x300"/></figure>
+<figure class="wp-block-image aligncenter"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg" alt="Image Alignment 580x300" class="wp-image-906" title="Image Alignment 580x300"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -8318,7 +8318,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":904} -->
-<figure class="wp-block-image alignleft"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg" alt="Image Alignment 150x150" class="wp-image-904" title="Image Alignment 150x150"/></figure>
+<figure class="wp-block-image alignleft"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg" alt="Image Alignment 150x150" class="wp-image-904" title="Image Alignment 150x150"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8334,7 +8334,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":907} -->
-<figure class="wp-block-image"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg" alt="Image Alignment 1200x400" class="wp-image-907" title="Image Alignment 1200x400"/></figure>
+<figure class="wp-block-image"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg" alt="Image Alignment 1200x400" class="wp-image-907" title="Image Alignment 1200x400"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8342,7 +8342,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":905} -->
-<figure class="wp-block-image alignright"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg" alt="Image Alignment 300x200" class="wp-image-905" title="Image Alignment 300x200"/></figure>
+<figure class="wp-block-image alignright"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg" alt="Image Alignment 300x200" class="wp-image-905" title="Image Alignment 300x200"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8358,7 +8358,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":906,"className":"size-full wp-image-906"} -->
-<figure class="wp-block-image aligncenter size-full wp-image-906"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg" alt="Image Alignment 580x300" class="wp-image-906"/><figcaption>Look at 580x300 getting some <a title="Image Settings" href="http://en.support.wordpress.com/images/image-settings/">caption</a> love.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full wp-image-906"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg" alt="Image Alignment 580x300" class="wp-image-906"/><figcaption>Look at 580x300 getting some <a title="Image Settings" href="http://en.support.wordpress.com/images/image-settings/">caption</a> love.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8366,7 +8366,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":904,"className":"size-full wp-image-904"} -->
-<figure class="wp-block-image alignleft size-full wp-image-904"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg" alt="Image Alignment 150x150" class="wp-image-904"/><figcaption>Itty-bitty caption.</figcaption></figure>
+<figure class="wp-block-image alignleft size-full wp-image-904"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg" alt="Image Alignment 150x150" class="wp-image-904"/><figcaption>Itty-bitty caption.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8382,7 +8382,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"none","id":907,"className":"wp-image-907"} -->
-<figure class="wp-block-image alignnone wp-image-907"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg" alt="Image Alignment 1200x400" class="wp-image-907"/><figcaption>Massive image comment for your eyeballs.</figcaption></figure>
+<figure class="wp-block-image alignnone wp-image-907"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg" alt="Image Alignment 1200x400" class="wp-image-907"/><figcaption>Massive image comment for your eyeballs.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -8390,7 +8390,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":905,"className":"size-full wp-image-905"} -->
-<figure class="wp-block-image alignright size-full wp-image-905"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg" alt="Image Alignment 300x200" class="wp-image-905"/><figcaption>Feels good to be right all the time.</figcaption></figure>
+<figure class="wp-block-image alignright size-full wp-image-905"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg" alt="Image Alignment 300x200" class="wp-image-905"/><figcaption>Feels good to be right all the time.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11341,7 +11341,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":906} -->
-<figure class="wp-block-image aligncenter"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg" alt="Image Alignment 580x300" class="wp-image-906" title="Image Alignment 580x300"/></figure>
+<figure class="wp-block-image aligncenter"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg" alt="Image Alignment 580x300" class="wp-image-906" title="Image Alignment 580x300"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -11353,7 +11353,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":904} -->
-<figure class="wp-block-image alignleft"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg" alt="Image Alignment 150x150" class="wp-image-904" title="Image Alignment 150x150"/></figure>
+<figure class="wp-block-image alignleft"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg" alt="Image Alignment 150x150" class="wp-image-904" title="Image Alignment 150x150"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11369,7 +11369,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":907} -->
-<figure class="wp-block-image"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg" alt="Image Alignment 1200x400" class="wp-image-907" title="Image Alignment 1200x400"/></figure>
+<figure class="wp-block-image"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg" alt="Image Alignment 1200x400" class="wp-image-907" title="Image Alignment 1200x400"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11377,7 +11377,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":905} -->
-<figure class="wp-block-image alignright"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg" alt="Image Alignment 300x200" class="wp-image-905" title="Image Alignment 300x200"/></figure>
+<figure class="wp-block-image alignright"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg" alt="Image Alignment 300x200" class="wp-image-905" title="Image Alignment 300x200"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11393,7 +11393,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":906,"className":"size-full wp-image-906"} -->
-<figure class="wp-block-image aligncenter size-full wp-image-906"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-2.jpg" alt="Image Alignment 580x300" class="wp-image-906"/><figcaption>Look at 580x300 getting some <a title="Image Settings" href="http://en.support.wordpress.com/images/image-settings/">caption</a> love.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full wp-image-906"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg" alt="Image Alignment 580x300" class="wp-image-906"/><figcaption>Look at 580x300 getting some <a title="Image Settings" href="http://en.support.wordpress.com/images/image-settings/">caption</a> love.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11401,7 +11401,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":904,"className":"size-full wp-image-904"} -->
-<figure class="wp-block-image alignleft size-full wp-image-904"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150-2.jpg" alt="Image Alignment 150x150" class="wp-image-904"/><figcaption>Itty-bitty caption.</figcaption></figure>
+<figure class="wp-block-image alignleft size-full wp-image-904"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-150x150.jpg" alt="Image Alignment 150x150" class="wp-image-904"/><figcaption>Itty-bitty caption.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11417,7 +11417,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"none","id":907,"className":"wp-image-907"} -->
-<figure class="wp-block-image alignnone wp-image-907"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-2.jpg" alt="Image Alignment 1200x400" class="wp-image-907"/><figcaption>Massive image comment for your eyeballs.</figcaption></figure>
+<figure class="wp-block-image alignnone wp-image-907"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg" alt="Image Alignment 1200x400" class="wp-image-907"/><figcaption>Massive image comment for your eyeballs.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -11425,7 +11425,7 @@ Super/Duper/Long/NonBreaking/Path/Name/To/A/File/That/Is/Way/Deep/Down/In/Some/M
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":905,"className":"size-full wp-image-905"} -->
-<figure class="wp-block-image alignright size-full wp-image-905"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200-2.jpg" alt="Image Alignment 300x200" class="wp-image-905"/><figcaption>Feels good to be right all the time.</figcaption></figure>
+<figure class="wp-block-image alignright size-full wp-image-905"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-300x200.jpg" alt="Image Alignment 300x200" class="wp-image-905"/><figcaption>Feels good to be right all the time.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -12243,7 +12243,7 @@ https://twitter.com/carlsmith/status/258214236126322689
 <!-- /wp:image -->
 
 <!-- wp:image {"id":1039,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman-2.jpg" alt="Iron Man 2" class="wp-image-1039"/></figure>
+<figure class="wp-block-image size-large"><img src="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/ironman.jpg" alt="Iron Man 2" class="wp-image-1039"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":1040,"sizeSlug":"large","linkDestination":"none"} -->
