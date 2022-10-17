@@ -41,6 +41,12 @@ function ttd_import_api() {
 		}
 	}
 
+	if ( '/%year%/%monthnum%/%day%/%postname%/' === get_option( 'permalink_structure' ) ) {
+		global $wp_rewrite;
+		$wp_rewrite->set_permalink_structure( '/%postname%/' );
+		update_option( 'permalink_structure', '/%postname%/' );
+	}
+
 	if ( ! class_exists( 'WP_Import' ) ) {
 
 		/** Functions missing in older WordPress versions. */
