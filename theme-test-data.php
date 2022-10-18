@@ -6,7 +6,7 @@
  * Author: AbstractWP
  * Author URI: https://www.abstractwp.com/
  * Tags: theme test data, unit test, test
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: 'theme-test-data'
  * Domain Path: languages
  * Tested up to: 6.0.2
