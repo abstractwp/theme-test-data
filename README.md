@@ -49,6 +49,10 @@ Thank you so much for your support!
 
 ## :scroll: Changelog
 
+### 1.0.2 version
+
+- Fixed: images missing.
+
 ### 1.0.1 version
 
 - Fixed: ajax fail on pain structure Permalink.
