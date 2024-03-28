@@ -8,6 +8,12 @@ jQuery(document).ready(function ($) {
 			var action = $(
 				"input[name='ttd-options[ttd_import_demo]']:checked"
 			).val();
+
+			if ( action == undefined ) {
+				var action = $(
+					"input[name='ttd-options[ttd_import_blocks_demo]']:checked"
+				).val();
+			}
 			$("#import-results").show();
 			$.ajax({
 					url: WPURLS.siteurl + "ttd/v1/" + action,
