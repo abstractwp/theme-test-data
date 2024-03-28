@@ -27,6 +27,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'TTD_DIR', dirname( __FILE__ ) );
 define( 'TTD_IMPORT', 'import' );
 define( 'TTD_REMOVE', 'remove' );
+define( 'TTD_IMPORT_BLOCKS', 'import_blocks' );
+define( 'TTD_REMOVE_BLOCKS', 'remove_blocks' );
 
 require_once 'include/api.php';
 
@@ -109,6 +111,11 @@ class TTDSettings {
 				$ttd_title = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'Imported' : 'Removed';
 				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
 			}
+
+			if ( isset( $this->options['ttd_import_blocks_demo'] ) ) {
+				$ttd_title = TTD_IMPORT_BLOCKS === $this->options['ttd_import_blocks_demo'] ? 'Blocks Imported' : ' Blocks Removed';
+				printf( '<strong>Data %s at %s </strong><br />', esc_html( $ttd_title ), esc_html( gmdate( 'm-d-Y H:i:s', $this->options['date'] ) ) );
+			}
 				submit_button( esc_html__( 'Submit', 'theme-test-data' ) );
 			?>
 			</form>
@@ -145,6 +152,14 @@ class TTDSettings {
 			'ttd-settings',
 			'import_section'
 		);
+
+		add_settings_field(
+			'ttd_import_blocks_demo',
+			'What do you want to do?',
+			array( $this, 'ttd_demo_blocks_callback' ),
+			'ttd-settings',
+			'import_section'
+		);
 	}
 
 	/**
@@ -175,10 +190,10 @@ class TTDSettings {
 	public function ttd_demo_callback() {
 		$ttd_import_disable = '';
 		$ttd_remove_disable = '';
-		if ( isset( $this->options['ttd_import_demo'] ) ) {
-			$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
-			$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
-		}
+		// if ( isset( $this->options['ttd_import_demo'] ) ) {
+		// 	$ttd_import_disable = TTD_IMPORT === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		// 	$ttd_remove_disable = TTD_REMOVE === $this->options['ttd_import_demo'] ? 'disabled' : '';
+		// }
 
 		printf(
 			'<input type="radio" id="ttd_import_demo" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT ) . '" %s />
@@ -187,6 +202,28 @@ class TTDSettings {
 			<label for="ttd_remove_demo">Remove demo</label>',
 			esc_html( $ttd_import_disable ),
 			esc_html( $ttd_remove_disable )
+		);
+	}
+
+
+	/**
+	 * Get the settings option array and print one of its values.
+	 */
+	public function ttd_demo_blocks_callback() {
+		$ttd_import_blocks_disable = '';
+		$ttd_remove_blocks_disable = '';
+		// if ( isset( $this->options['ttd_import_demo_blocks'] ) ) {
+		// 	$ttd_import_blocks_disable = TTD_IMPORT_BLOCKS === $this->options['ttd_import_demo_blocks'] ? 'disabled' : '';
+		// 	$ttd_remove_blocks_disable = TTD_REMOVE_BLOCKS === $this->options['ttd_import_demo_blocks'] ? 'disabled' : '';
+		// }
+
+		printf(
+			'<input type="radio" id="ttd_import_demo_blocks" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT_BLOCKS ) . '" %s />
+			<label for="ttd_import_demo_blocks">Import blocks</label>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="ttd_remove_demo_blocks" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_REMOVE_BLOCKS ) . '" %s />
+			<label for="ttd_remove_demo">Remove blocks</label>',
+			esc_html( $ttd_import_blocks_disable ),
+			esc_html( $ttd_remove_blocks_disable )
 		);
 	}
 

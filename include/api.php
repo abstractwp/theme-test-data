@@ -20,10 +20,26 @@ add_action(
 	}
 );
 
+
+add_action(
+	'rest_api_init',
+	function () {
+		$GLOBALS['ttd_user_id'] = get_current_user_id();
+		register_rest_route(
+			'ttd/v1',
+			'import_blocks/',
+			array(
+				'methods'  => 'GET',
+				'callback' => 'ttd_import_blocks',
+			)
+		);
+	}
+);
+
 /**
  * Function to import data.
  */
-function ttd_import_xml( $xml_file ) {
+function ttd_import_xml( $xml_file, $option_prefix ) {
 
 	/** WordPress Import Administration API */
 	require_once ABSPATH . 'wp-admin/includes/import.php';
@@ -106,10 +122,15 @@ function ttd_import_xml( $xml_file ) {
 	}
 
 	$options                    = get_option( 'ttd-options' );
-	$options['imported_posts']  = $wp_import->processed_posts;
-	$options['imported_terms']  = $wp_import->processed_terms;
-	$options['ttd_import_demo'] = TTD_IMPORT;
-	$options['date']            = time();
+	$options[ 'imported_posts' .$option_prefix  ]   = $wp_import->processed_posts;
+	$options[ 'imported_terms' . $option_prefix ]   = $wp_import->processed_terms;
+	$options[ 'ttd_import_demo' . $option_prefix  ] = TTD_IMPORT;
+
+	if ( '_blocks' === $option_prefix ) {
+		$options[ 'ttd_import_demo' . $option_prefix  ] = TTD_IMPORT_BLOCKS;
+	}
+
+	$options[ 'date' .$option_prefix  ]             = time();
 
 	update_option( 'ttd-options', $options );
 
@@ -121,7 +142,14 @@ function ttd_import_xml( $xml_file ) {
  * Function to import data.
  */
 function ttd_import_api() {
-	ttd_import_xml( TTD_DIR . '/assets/xml/wptest.xml' );
+	ttd_import_xml( TTD_DIR . '/assets/xml/wptest.xml', '' );
+}
+
+/**
+ * Function to import blocks post data.
+ */
+function ttd_import_blocks() {
+	ttd_import_xml( TTD_DIR . '/assets/xml/64-block-test-data.xml', '_blocks' );
 }
 
 add_action(
@@ -170,6 +198,58 @@ function ttd_remove_api() {
 
 	if ( '' === $ttd_remove_msg ) {
 		$ttd_remove_msg = esc_html__( 'Data removed', 'theme-unit-data' );
+	}
+
+	echo $ttd_remove_msg; // phpcs:ignore.
+	die;
+}
+
+add_action(
+	'rest_api_init',
+	function () {
+		register_rest_route(
+			'ttd/v1',
+			'remove_blocks/',
+			array(
+				'methods'  => 'GET',
+				'callback' => 'ttd_remove_blocks_api',
+			)
+		);
+	}
+);
+
+/**
+ * Function to remove data.
+ */
+function ttd_remove_blocks_api() {
+	ob_start();
+	$options = get_option( 'ttd-options' );
+
+	// Remove posts.
+	foreach ( $options['imported_posts_blocks'] as $key => $value ) {
+		if ( 'attachment' === get_post_type( $value ) ) {
+			wp_delete_attachment( $value, true );
+		} else {
+			wp_delete_post( $value, true );
+		}
+		unset( $options['imported_posts_blocks'][ $key ] );
+	}
+
+	// Remove terms.
+	foreach ( $options['imported_terms_blocks'] as $key => $value ) {
+		$taxonomy = get_term( $value )->taxonomy;
+		wp_delete_term( $value, $taxonomy );
+		unset( $options['imported_terms_blocks'][ $key ] );
+	}
+
+	$options['ttd_import_blocks_demo'] = TTD_REMOVE_BLOCKS;
+	$options['date']            = time();
+
+	update_option( 'ttd-options', $options );
+	$ttd_remove_msg = trim( ob_get_clean() );
+
+	if ( '' === $ttd_remove_msg ) {
+		$ttd_remove_msg = esc_html__( 'Blocks posts removed', 'theme-unit-data' );
 	}
 
 	echo $ttd_remove_msg; // phpcs:ignore.
