@@ -23,7 +23,7 @@ add_action(
 /**
  * Function to import data.
  */
-function ttd_import_api() {
+function ttd_import_xml( $xml_file ) {
 
 	/** WordPress Import Administration API */
 	require_once ABSPATH . 'wp-admin/includes/import.php';
@@ -73,7 +73,7 @@ function ttd_import_api() {
 	$wp_import = new WP_Import();
 
 	$wp_import->fetch_attachments = true;
-	$wp_import->import( TTD_DIR . '/assets/xml/wptest.xml' );
+	$wp_import->import( $xml_file );
 	$wp_import_msg = trim( ob_get_clean() );
 
 	// Update author.
@@ -115,6 +115,13 @@ function ttd_import_api() {
 
 	echo $wp_import_msg; // phpcs:ignore
 	die();
+}
+
+/**
+ * Function to import data.
+ */
+function ttd_import_api() {
+	ttd_import_xml( TTD_DIR . '/assets/xml/wptest.xml' );
 }
 
 add_action(
