@@ -221,7 +221,7 @@ class TTDSettings {
 			'<input type="radio" id="ttd_import_demo_blocks" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_IMPORT_BLOCKS ) . '" %s />
 			<label for="ttd_import_demo_blocks">Import blocks</label>&nbsp;&nbsp;&nbsp;&nbsp;
 			<input type="radio" id="ttd_remove_demo_blocks" name="ttd-options[ttd_import_demo]" value="' . esc_html( TTD_REMOVE_BLOCKS ) . '" %s />
-			<label for="ttd_remove_demo">Remove blocks</label>',
+			<label for="ttd_remove_demo_blocks">Remove blocks</label>',
 			esc_html( $ttd_import_blocks_disable ),
 			esc_html( $ttd_remove_blocks_disable )
 		);
