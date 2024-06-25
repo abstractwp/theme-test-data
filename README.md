@@ -49,6 +49,10 @@ Thank you so much for your support!
 
 ## :scroll: Changelog
 
+### 1.0.3 version
+
+- Added: Blocks unit test.
+
 ### 1.0.2 version
 
 - Fixed: images missing.

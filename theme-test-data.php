@@ -6,10 +6,10 @@
  * Author: AbstractWP
  * Author URI: https://www.abstractwp.com/
  * Tags: theme test data, unit test, test
- * Version: 1.0.2
+ * Version: 1.0.3
  * Text Domain: 'theme-test-data'
  * Domain Path: languages
- * Tested up to: 6.0.2
+ * Tested up to: 6.5
  *
  * You should have received a copy of the GNU General Public License
  * along with Theme Unit Test. If not, see <http://www.gnu.org/licenses/>.
